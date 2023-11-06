@@ -1,0 +1,32 @@
+<section class="admin-categories-index">
+
+  <header class="page-header bg-primary text-white text-center py-4">
+    <h1 class="display-4">Admin &raquo; All Categories</h1>
+  </header>
+
+  <div class="container mt-4">
+    <div class="mb-3">
+      <%= link_to '+ New Category', new_product_path, class: 'btn btn-info' %>
+    </div>
+
+    <article class="panel panel-default categories">
+      <table class="table table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @categories.each do |category| %>
+            <tr>
+              <td>
+                <%= category.name %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </article>
+  </div>
+
+</section>

@@ -1,0 +1,13 @@
+<!-- app/views/categories/new.html.erb -->
+<div class="container mt-4">
+  <h1 class="mb-4">New Category</h1>
+
+  <%= form_for @category, url: categories_path, html: { class: 'form' } do |form| %>
+    <div class="mb-3">
+      <%= form.label :name, class: 'form-label' %>
+      <%= form.text_field :name, class: 'form-control' %>
+    </div>
+
+    <%= form.submit 'Create Category', class: 'btn btn-primary' %>
+  <% end %>
+</div>
