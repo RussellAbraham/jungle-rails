@@ -10,7 +10,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to root_path
     else
-      redirect_to signup_path
+      redirect_to signup_path(error: user.errors.full_messages.first)
     end
   end
 
