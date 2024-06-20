@@ -2,6 +2,35 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+
+![Admin Page](docs/admin.png)
+*This is the admin page where you can manage products and categories.*
+
+![Cart Page](docs/cart.png)
+*This is the cart page where you can view and manage your shopping cart.*
+
+![Filter Page](docs/filter.png)
+*This is the filter page where you can filter products by category.*
+
+![Header Page](docs/header.png)
+*This is the header section of the website.*
+
+![Login Page](docs/login.png)
+*This is the login page where users can log in to their accounts.*
+
+![Stripe Payment Page](docs/stripe_payment.png)
+*This is the payment page where users can make payments using Stripe.*
+
+![Payment Success Page](docs/payment_success.png)
+*This is the payment success page displayed after a successful payment.*
+
+![Product Page](docs/product1.png)
+*This is a product page displaying product details.*
+
+![Signup Page](docs/signup.png)
+*This is the signup page where users can create a new account.*
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
